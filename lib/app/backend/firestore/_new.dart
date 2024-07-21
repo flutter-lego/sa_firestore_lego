@@ -323,6 +323,27 @@ class New {
   // List<dynamic> l018 = [];
   // List<dynamic> l019 = [];
   // List<dynamic> l020 = [];
+  // Map<String, dynamic> m000 = {};
+  // Map<String, dynamic> m001 = {};
+  // Map<String, dynamic> m002 = {};
+  // Map<String, dynamic> m003 = {};
+  // Map<String, dynamic> m004 = {};
+  // Map<String, dynamic> m005 = {};
+  // Map<String, dynamic> m006 = {};
+  // Map<String, dynamic> m007 = {};
+  // Map<String, dynamic> m008 = {};
+  // Map<String, dynamic> m009 = {};
+  // Map<String, dynamic> m010 = {};
+  // Map<String, dynamic> m011 = {};
+  // Map<String, dynamic> m012 = {};
+  // Map<String, dynamic> m013 = {};
+  // Map<String, dynamic> m014 = {};
+  // Map<String, dynamic> m015 = {};
+  // Map<String, dynamic> m016 = {};
+  // Map<String, dynamic> m017 = {};
+  // Map<String, dynamic> m018 = {};
+  // Map<String, dynamic> m019 = {};
+  // Map<String, dynamic> m020 = {};
   // OtherModel c000 = OtherModel();
   // OtherModel c001 = OtherModel();
   // OtherModel c002 = OtherModel();
@@ -390,8 +411,7 @@ class New {
   String docId = "";
 
   String toDataString() {
-    return base64.encode(utf8
-        .encode(Uri(scheme: 'https', host: 'junestory.com', queryParameters: {
+    return base64.encode(utf8.encode(Uri(scheme: 'https', host: 'junestory.com', queryParameters: {
       's000': s000,
       // 's001': s001,
       // 's002': s002,
@@ -696,6 +716,27 @@ class New {
       // 'l018': json.encode(l018),
       // 'l019': json.encode(l019),
       // 'l020': json.encode(l020),
+      // 'm000': json.encode(m000),
+      // 'm001': json.encode(m001),
+      // 'm002': json.encode(m002),
+      // 'm003': json.encode(m003),
+      // 'm004': json.encode(m004),
+      // 'm005': json.encode(m005),
+      // 'm006': json.encode(m006),
+      // 'm007': json.encode(m007),
+      // 'm008': json.encode(m008),
+      // 'm009': json.encode(m009),
+      // 'm010': json.encode(m010),
+      // 'm011': json.encode(m011),
+      // 'm012': json.encode(m012),
+      // 'm013': json.encode(m013),
+      // 'm014': json.encode(m014),
+      // 'm015': json.encode(m015),
+      // 'm016': json.encode(m016),
+      // 'm017': json.encode(m017),
+      // 'm018': json.encode(m018),
+      // 'm019': json.encode(m019),
+      // 'm020': json.encode(m020),
       // 'c000': c000.toDataString(),
       // 'c001': c001.toDataString(),
       // 'c002': c002.toDataString(),
@@ -764,8 +805,7 @@ class New {
   }
 
   static New fromDataString(String dataString) {
-    Map<String, String> queryParams =
-        Uri.splitQueryString(utf8.decode(base64.decode(dataString)));
+    Map<String, String> queryParams = Uri.splitQueryString(utf8.decode(base64.decode(dataString)));
 
     New object = New();
 
@@ -1073,6 +1113,27 @@ class New {
     // object.l018 = jsonDecode(queryParams["l018"] ?? "[]");
     // object.l019 = jsonDecode(queryParams["l019"] ?? "[]");
     // object.l020 = jsonDecode(queryParams["l020"] ?? "[]");
+    // object.m000 = jsonDecode(queryParams["m000"] ?? "{}");
+    // object.m001 = jsonDecode(queryParams["m001"] ?? "{}");
+    // object.m002 = jsonDecode(queryParams["m002"] ?? "{}");
+    // object.m003 = jsonDecode(queryParams["m003"] ?? "{}");
+    // object.m004 = jsonDecode(queryParams["m004"] ?? "{}");
+    // object.m005 = jsonDecode(queryParams["m005"] ?? "{}");
+    // object.m006 = jsonDecode(queryParams["m006"] ?? "{}");
+    // object.m007 = jsonDecode(queryParams["m007"] ?? "{}");
+    // object.m008 = jsonDecode(queryParams["m008"] ?? "{}");
+    // object.m009 = jsonDecode(queryParams["m009"] ?? "{}");
+    // object.m010 = jsonDecode(queryParams["m010"] ?? "{}");
+    // object.m011 = jsonDecode(queryParams["m011"] ?? "{}");
+    // object.m012 = jsonDecode(queryParams["m012"] ?? "{}");
+    // object.m013 = jsonDecode(queryParams["m013"] ?? "{}");
+    // object.m014 = jsonDecode(queryParams["m014"] ?? "{}");
+    // object.m015 = jsonDecode(queryParams["m015"] ?? "{}");
+    // object.m016 = jsonDecode(queryParams["m016"] ?? "{}");
+    // object.m017 = jsonDecode(queryParams["m017"] ?? "{}");
+    // object.m018 = jsonDecode(queryParams["m018"] ?? "{}");
+    // object.m019 = jsonDecode(queryParams["m019"] ?? "{}");
+    // object.m020 = jsonDecode(queryParams["m020"] ?? "{}");
     // object.c000 = OtherModel.fromDataString(queryParams["c000"] ?? OtherModel().toDataString());
     // object.c001 = OtherModel.fromDataString(queryParams['c001'] ?? OtherModel().toDataString());
     // object.c002 = OtherModel.fromDataString(queryParams['c002'] ?? OtherModel().toDataString());
@@ -1345,37 +1406,37 @@ class New {
     // map["i097"] = i097;
     // map["i098"] = i098;
     // map["i099"] = i099;
-    // map["b000"] = b000 ? 1 : 0;
-    // map["b001"] = b001 ? 1 : 0;
-    // map["b002"] = b002 ? 1 : 0;
-    // map["b003"] = b003 ? 1 : 0;
-    // map["b004"] = b004 ? 1 : 0;
-    // map["b005"] = b005 ? 1 : 0;
-    // map["b006"] = b006 ? 1 : 0;
-    // map["b007"] = b007 ? 1 : 0;
-    // map["b008"] = b008 ? 1 : 0;
-    // map["b009"] = b009 ? 1 : 0;
-    // map["b010"] = b010 ? 1 : 0;
-    // map["b011"] = b011 ? 1 : 0;
-    // map["b012"] = b012 ? 1 : 0;
-    // map["b013"] = b013 ? 1 : 0;
-    // map["b014"] = b014 ? 1 : 0;
-    // map["b015"] = b015 ? 1 : 0;
-    // map["b016"] = b016 ? 1 : 0;
-    // map["b017"] = b017 ? 1 : 0;
-    // map["b018"] = b018 ? 1 : 0;
-    // map["b019"] = b019 ? 1 : 0;
-    // map["b020"] = b020 ? 1 : 0;
-    // map["b021"] = b021 ? 1 : 0;
-    // map["b022"] = b022 ? 1 : 0;
-    // map["b023"] = b023 ? 1 : 0;
-    // map["b024"] = b024 ? 1 : 0;
-    // map["b025"] = b025 ? 1 : 0;
-    // map["b026"] = b026 ? 1 : 0;
-    // map["b027"] = b027 ? 1 : 0;
-    // map["b028"] = b028 ? 1 : 0;
-    // map["b029"] = b029 ? 1 : 0;
-    // map["b030"] = b030 ? 1 : 0;
+    // map["b000"] = b000;
+    // map["b001"] = b001;
+    // map["b002"] = b002;
+    // map["b003"] = b003;
+    // map["b004"] = b004;
+    // map["b005"] = b005;
+    // map["b006"] = b006;
+    // map["b007"] = b007;
+    // map["b008"] = b008;
+    // map["b009"] = b009;
+    // map["b010"] = b010;
+    // map["b011"] = b011;
+    // map["b012"] = b012;
+    // map["b013"] = b013;
+    // map["b014"] = b014;
+    // map["b015"] = b015;
+    // map["b016"] = b016;
+    // map["b017"] = b017;
+    // map["b018"] = b018;
+    // map["b019"] = b019;
+    // map["b020"] = b020;
+    // map["b021"] = b021;
+    // map["b022"] = b022;
+    // map["b023"] = b023;
+    // map["b024"] = b024;
+    // map["b025"] = b025;
+    // map["b026"] = b026;
+    // map["b027"] = b027;
+    // map["b028"] = b028;
+    // map["b029"] = b029;
+    // map["b030"] = b030;
     // map["r000"] = r000;
     // map["r001"] = r001;
     // map["r002"] = r002;
@@ -1407,48 +1468,69 @@ class New {
     // map["r028"] = r028;
     // map["r029"] = r029;
     // map["r030"] = r030;
-    // map["t000"] = t000.millisecondsSinceEpoch;
-    // map["t001"] = t001.millisecondsSinceEpoch;
-    // map["t002"] = t002.millisecondsSinceEpoch;
-    // map["t003"] = t003.millisecondsSinceEpoch;
-    // map["t004"] = t004.millisecondsSinceEpoch;
-    // map["t005"] = t005.millisecondsSinceEpoch;
-    // map["t006"] = t006.millisecondsSinceEpoch;
-    // map["t007"] = t007.millisecondsSinceEpoch;
-    // map["t008"] = t008.millisecondsSinceEpoch;
-    // map["t009"] = t009.millisecondsSinceEpoch;
-    // map["t010"] = t010.millisecondsSinceEpoch;
-    // map["t011"] = t011.millisecondsSinceEpoch;
-    // map["t012"] = t012.millisecondsSinceEpoch;
-    // map["t013"] = t013.millisecondsSinceEpoch;
-    // map["t014"] = t014.millisecondsSinceEpoch;
-    // map["t015"] = t015.millisecondsSinceEpoch;
-    // map["t016"] = t016.millisecondsSinceEpoch;
-    // map["t017"] = t017.millisecondsSinceEpoch;
-    // map["t018"] = t018.millisecondsSinceEpoch;
-    // map["t019"] = t019.millisecondsSinceEpoch;
-    // map["t020"] = t020.millisecondsSinceEpoch;
-    // map["l000"] = jsonEncode(l000);
-    // map["l001"] = jsonEncode(l001);
-    // map["l002"] = jsonEncode(l002);
-    // map["l003"] = jsonEncode(l003);
-    // map["l004"] = jsonEncode(l004);
-    // map["l005"] = jsonEncode(l005);
-    // map["l006"] = jsonEncode(l006);
-    // map["l007"] = jsonEncode(l007);
-    // map["l008"] = jsonEncode(l008);
-    // map["l009"] = jsonEncode(l009);
-    // map["l010"] = jsonEncode(l010);
-    // map["l011"] = jsonEncode(l011);
-    // map["l012"] = jsonEncode(l012);
-    // map["l013"] = jsonEncode(l013);
-    // map["l014"] = jsonEncode(l014);
-    // map["l015"] = jsonEncode(l015);
-    // map["l016"] = jsonEncode(l016);
-    // map["l017"] = jsonEncode(l017);
-    // map["l018"] = jsonEncode(l018);
-    // map["l019"] = jsonEncode(l019);
-    // map["l020"] = jsonEncode(l020);
+    // map["t000"] = Timestamp.fromDate(t000);
+    // map["t001"] = Timestamp.fromDate(t001);
+    // map["t002"] = Timestamp.fromDate(t002);
+    // map["t003"] = Timestamp.fromDate(t003);
+    // map["t004"] = Timestamp.fromDate(t004);
+    // map["t005"] = Timestamp.fromDate(t005);
+    // map["t006"] = Timestamp.fromDate(t006);
+    // map["t007"] = Timestamp.fromDate(t007);
+    // map["t008"] = Timestamp.fromDate(t008);
+    // map["t009"] = Timestamp.fromDate(t009);
+    // map["t010"] = Timestamp.fromDate(t010);
+    // map["t011"] = Timestamp.fromDate(t011);
+    // map["t012"] = Timestamp.fromDate(t012);
+    // map["t013"] = Timestamp.fromDate(t013);
+    // map["t014"] = Timestamp.fromDate(t014);
+    // map["t015"] = Timestamp.fromDate(t015);
+    // map["t016"] = Timestamp.fromDate(t016);
+    // map["t017"] = Timestamp.fromDate(t017);
+    // map["t018"] = Timestamp.fromDate(t018);
+    // map["t019"] = Timestamp.fromDate(t019);
+    // map["t020"] = Timestamp.fromDate(t020);
+    // map["l000"] = l000;
+    // map["l001"] = l001;
+    // map["l002"] = l002;
+    // map["l003"] = l003;
+    // map["l004"] = l004;
+    // map["l005"] = l005;
+    // map["l006"] = l006;
+    // map["l007"] = l007;
+    // map["l008"] = l008;
+    // map["l009"] = l009;
+    // map["l010"] = l010;
+    // map["l011"] = l011;
+    // map["l012"] = l012;
+    // map["l013"] = l013;
+    // map["l014"] = l014;
+    // map["l015"] = l015;
+    // map["l016"] = l016;
+    // map["l017"] = l017;
+    // map["l018"] = l018;
+    // map["l019"] = l019;
+    // map["l020"] = l020;
+    // map["m000"] = m000;
+    // map["m001"] = m001;
+    // map["m002"] = m002;
+    // map["m003"] = m003;
+    // map["m004"] = m004;
+    // map["m005"] = m005;
+    // map["m006"] = m006;
+    // map["m007"] = m007;
+    // map["m008"] = m008;
+    // map["m009"] = m009;
+    // map["m010"] = m010;
+    // map["m011"] = m011;
+    // map["m012"] = m012;
+    // map["m013"] = m013;
+    // map["m014"] = m014;
+    // map["m015"] = m015;
+    // map["m016"] = m016;
+    // map["m017"] = m017;
+    // map["m018"] = m018;
+    // map["m019"] = m019;
+    // map["m020"] = m020;
     // map["c000"] = c000.toDataString();
     // map["c001"] = c001.toDataString();
     // map["c002"] = c002.toDataString();
@@ -1721,37 +1803,37 @@ class New {
     // object.i097 = queryParams["i097"] ?? 0;
     // object.i098 = queryParams["i098"] ?? 0;
     // object.i099 = queryParams["i099"] ?? 0;
-    // object.b000 = queryParams["b000"] == 1;
-    // object.b001 = queryParams["b001"] == 1;
-    // object.b002 = queryParams["b002"] == 1;
-    // object.b003 = queryParams["b003"] == 1;
-    // object.b004 = queryParams["b004"] == 1;
-    // object.b005 = queryParams["b005"] == 1;
-    // object.b006 = queryParams["b006"] == 1;
-    // object.b007 = queryParams["b007"] == 1;
-    // object.b008 = queryParams["b008"] == 1;
-    // object.b009 = queryParams["b009"] == 1;
-    // object.b010 = queryParams["b010"] == 1;
-    // object.b011 = queryParams["b011"] == 1;
-    // object.b012 = queryParams["b012"] == 1;
-    // object.b013 = queryParams["b013"] == 1;
-    // object.b014 = queryParams["b014"] == 1;
-    // object.b015 = queryParams["b015"] == 1;
-    // object.b016 = queryParams["b016"] == 1;
-    // object.b017 = queryParams["b017"] == 1;
-    // object.b018 = queryParams["b018"] == 1;
-    // object.b019 = queryParams["b019"] == 1;
-    // object.b020 = queryParams["b020"] == 1;
-    // object.b021 = queryParams["b021"] == 1;
-    // object.b022 = queryParams["b022"] == 1;
-    // object.b023 = queryParams["b023"] == 1;
-    // object.b024 = queryParams["b024"] == 1;
-    // object.b025 = queryParams["b025"] == 1;
-    // object.b026 = queryParams["b026"] == 1;
-    // object.b027 = queryParams["b027"] == 1;
-    // object.b028 = queryParams["b028"] == 1;
-    // object.b029 = queryParams["b029"] == 1;
-    // object.b030 = queryParams["b030"] == 1;
+    // object.b000 = queryParams["b000"] ?? false;
+    // object.b001 = queryParams["b001"] ?? false;
+    // object.b002 = queryParams["b002"] ?? false;
+    // object.b003 = queryParams["b003"] ?? false;
+    // object.b004 = queryParams["b004"] ?? false;
+    // object.b005 = queryParams["b005"] ?? false;
+    // object.b006 = queryParams["b006"] ?? false;
+    // object.b007 = queryParams["b007"] ?? false;
+    // object.b008 = queryParams["b008"] ?? false;
+    // object.b009 = queryParams["b009"] ?? false;
+    // object.b010 = queryParams["b010"] ?? false;
+    // object.b011 = queryParams["b011"] ?? false;
+    // object.b012 = queryParams["b012"] ?? false;
+    // object.b013 = queryParams["b013"] ?? false;
+    // object.b014 = queryParams["b014"] ?? false;
+    // object.b015 = queryParams["b015"] ?? false;
+    // object.b016 = queryParams["b016"] ?? false;
+    // object.b017 = queryParams["b017"] ?? false;
+    // object.b018 = queryParams["b018"] ?? false;
+    // object.b019 = queryParams["b019"] ?? false;
+    // object.b020 = queryParams["b020"] ?? false;
+    // object.b021 = queryParams["b021"] ?? false;
+    // object.b022 = queryParams["b022"] ?? false;
+    // object.b023 = queryParams["b023"] ?? false;
+    // object.b024 = queryParams["b024"] ?? false;
+    // object.b025 = queryParams["b025"] ?? false;
+    // object.b026 = queryParams["b026"] ?? false;
+    // object.b027 = queryParams["b027"] ?? false;
+    // object.b028 = queryParams["b028"] ?? false;
+    // object.b029 = queryParams["b029"] ?? false;
+    // object.b030 = queryParams["b030"] ?? false;
     // object.r000 = queryParams["r000"] ?? 0;
     // object.r001 = queryParams["r001"] ?? 0;
     // object.r002 = queryParams["r002"] ?? 0;
@@ -1783,48 +1865,69 @@ class New {
     // object.r028 = queryParams["r028"] ?? 0;
     // object.r029 = queryParams["r029"] ?? 0;
     // object.r030 = queryParams["r030"] ?? 0;
-    // object.t000 = DateTime.fromMillisecondsSinceEpoch(queryParams["t000"] ?? 0);
-    // object.t001 = DateTime.fromMillisecondsSinceEpoch(queryParams["t001"] ?? 0);
-    // object.t002 = DateTime.fromMillisecondsSinceEpoch(queryParams["t002"] ?? 0);
-    // object.t003 = DateTime.fromMillisecondsSinceEpoch(queryParams["t003"] ?? 0);
-    // object.t004 = DateTime.fromMillisecondsSinceEpoch(queryParams["t004"] ?? 0);
-    // object.t005 = DateTime.fromMillisecondsSinceEpoch(queryParams["t005"] ?? 0);
-    // object.t006 = DateTime.fromMillisecondsSinceEpoch(queryParams["t006"] ?? 0);
-    // object.t007 = DateTime.fromMillisecondsSinceEpoch(queryParams["t007"] ?? 0);
-    // object.t008 = DateTime.fromMillisecondsSinceEpoch(queryParams["t008"] ?? 0);
-    // object.t009 = DateTime.fromMillisecondsSinceEpoch(queryParams["t009"] ?? 0);
-    // object.t010 = DateTime.fromMillisecondsSinceEpoch(queryParams["t010"] ?? 0);
-    // object.t011 = DateTime.fromMillisecondsSinceEpoch(queryParams["t011"] ?? 0);
-    // object.t012 = DateTime.fromMillisecondsSinceEpoch(queryParams["t012"] ?? 0);
-    // object.t013 = DateTime.fromMillisecondsSinceEpoch(queryParams["t013"] ?? 0);
-    // object.t014 = DateTime.fromMillisecondsSinceEpoch(queryParams["t014"] ?? 0);
-    // object.t015 = DateTime.fromMillisecondsSinceEpoch(queryParams["t015"] ?? 0);
-    // object.t016 = DateTime.fromMillisecondsSinceEpoch(queryParams["t016"] ?? 0);
-    // object.t017 = DateTime.fromMillisecondsSinceEpoch(queryParams["t017"] ?? 0);
-    // object.t018 = DateTime.fromMillisecondsSinceEpoch(queryParams["t018"] ?? 0);
-    // object.t019 = DateTime.fromMillisecondsSinceEpoch(queryParams["t019"] ?? 0);
-    // object.t020 = DateTime.fromMillisecondsSinceEpoch(queryParams["t020"] ?? 0);
-    // object.l000 = jsonDecode(queryParams["l000"] ?? "[]");
-    // object.l001 = jsonDecode(queryParams["l001"] ?? "[]");
-    // object.l002 = jsonDecode(queryParams["l002"] ?? "[]");
-    // object.l003 = jsonDecode(queryParams["l003"] ?? "[]");
-    // object.l004 = jsonDecode(queryParams["l004"] ?? "[]");
-    // object.l005 = jsonDecode(queryParams["l005"] ?? "[]");
-    // object.l006 = jsonDecode(queryParams["l006"] ?? "[]");
-    // object.l007 = jsonDecode(queryParams["l007"] ?? "[]");
-    // object.l008 = jsonDecode(queryParams["l008"] ?? "[]");
-    // object.l009 = jsonDecode(queryParams["l009"] ?? "[]");
-    // object.l010 = jsonDecode(queryParams["l010"] ?? "[]");
-    // object.l011 = jsonDecode(queryParams["l011"] ?? "[]");
-    // object.l012 = jsonDecode(queryParams["l012"] ?? "[]");
-    // object.l013 = jsonDecode(queryParams["l013"] ?? "[]");
-    // object.l014 = jsonDecode(queryParams["l014"] ?? "[]");
-    // object.l015 = jsonDecode(queryParams["l015"] ?? "[]");
-    // object.l016 = jsonDecode(queryParams["l016"] ?? "[]");
-    // object.l017 = jsonDecode(queryParams["l017"] ?? "[]");
-    // object.l018 = jsonDecode(queryParams["l018"] ?? "[]");
-    // object.l019 = jsonDecode(queryParams["l019"] ?? "[]");
-    // object.l020 = jsonDecode(queryParams["l020"] ?? "[]");
+    // object.t000 = queryParams["t000"].toDate() ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t001 = queryParams["t001"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t002 = queryParams["t002"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t003 = queryParams["t003"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t004 = queryParams["t004"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t005 = queryParams["t005"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t006 = queryParams["t006"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t007 = queryParams["t007"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t008 = queryParams["t008"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t009 = queryParams["t009"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t010 = queryParams["t010"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t011 = queryParams["t011"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t012 = queryParams["t012"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t013 = queryParams["t013"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t014 = queryParams["t014"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t015 = queryParams["t015"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t016 = queryParams["t016"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t017 = queryParams["t017"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t018 = queryParams["t018"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t019 = queryParams["t019"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.t020 = queryParams["t020"] ?? DateTime.fromMillisecondsSinceEpoch(0);
+    // object.l000 = queryParams["l000"] ?? [];
+    // object.l001 = queryParams["l001"] ?? [];
+    // object.l002 = queryParams["l002"] ?? [];
+    // object.l003 = queryParams["l003"] ?? [];
+    // object.l004 = queryParams["l004"] ?? [];
+    // object.l005 = queryParams["l005"] ?? [];
+    // object.l006 = queryParams["l006"] ?? [];
+    // object.l007 = queryParams["l007"] ?? [];
+    // object.l008 = queryParams["l008"] ?? [];
+    // object.l009 = queryParams["l009"] ?? [];
+    // object.l010 = queryParams["l010"] ?? [];
+    // object.l011 = queryParams["l011"] ?? [];
+    // object.l012 = queryParams["l012"] ?? [];
+    // object.l013 = queryParams["l013"] ?? [];
+    // object.l014 = queryParams["l014"] ?? [];
+    // object.l015 = queryParams["l015"] ?? [];
+    // object.l016 = queryParams["l016"] ?? [];
+    // object.l017 = queryParams["l017"] ?? [];
+    // object.l018 = queryParams["l018"] ?? [];
+    // object.l019 = queryParams["l019"] ?? [];
+    // object.l020 = queryParams["l020"] ?? [];
+    // object.m000 = queryParams["m000"] ?? {};
+    // object.m001 = queryParams["m001"] ?? {};
+    // object.m002 = queryParams["m002"] ?? {};
+    // object.m003 = queryParams["m003"] ?? {};
+    // object.m004 = queryParams["m004"] ?? {};
+    // object.m005 = queryParams["m005"] ?? {};
+    // object.m006 = queryParams["m006"] ?? {};
+    // object.m007 = queryParams["m007"] ?? {};
+    // object.m008 = queryParams["m008"] ?? {};
+    // object.m009 = queryParams["m009"] ?? {};
+    // object.m010 = queryParams["m010"] ?? {};
+    // object.m011 = queryParams["m011"] ?? {};
+    // object.m012 = queryParams["m012"] ?? {};
+    // object.m013 = queryParams["m013"] ?? {};
+    // object.m014 = queryParams["m014"] ?? {};
+    // object.m015 = queryParams["m015"] ?? {};
+    // object.m016 = queryParams["m016"] ?? {};
+    // object.m017 = queryParams["m017"] ?? {};
+    // object.m018 = queryParams["m018"] ?? {};
+    // object.m019 = queryParams["m019"] ?? {};
+    // object.m020 = queryParams["m020"] ?? {};
     // object.c000 = OtherModel.fromDataString(queryParams["c000"] ?? OtherModel().toDataString());
     // object.c001 = OtherModel.fromDataString(queryParams['c001'] ?? OtherModel().toDataString());
     // object.c002 = OtherModel.fromDataString(queryParams['c002'] ?? OtherModel().toDataString());
@@ -1894,6 +1997,7 @@ class New {
     return object;
   }
 }
+
 
 class NewFireStore {
   CollectionReference<New> getObjectReference() {
