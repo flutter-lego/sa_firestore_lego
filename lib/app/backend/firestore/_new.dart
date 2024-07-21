@@ -2046,4 +2046,14 @@ class NewFireStore {
       await batch.commit();
     }
   }
+
+  Future<bool> delete(String docId) async {
+    try {
+      await getObjectReference().doc(docId).delete();
+      return true;
+    } catch (e) {
+      print('Failed to delete document: $e');
+      return false;
+    }
+  }
 }

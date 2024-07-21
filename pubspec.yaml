@@ -3,7 +3,7 @@ description: "lego is all you need"
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/sa_firestore_lego
 
-version: 1.0.2
+version: 1.0.3
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
